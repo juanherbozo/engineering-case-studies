@@ -1,0 +1,25 @@
+# Local tools, operating-system metadata and temporary files
+.DS_Store
+Thumbs.db
+Desktop.ini
+*.log
+*.tmp
+*.bak
+*.backup
+*.local
+
+# Never commit secrets or private materials
+.env
+.env.*
+!.env.example
+**/private/
+**/secrets/
+*.pem
+*.key
+
+# Common development outputs (if code examples are added later)
+node_modules/
+dist/
+.astro/
+__pycache__/
+.venv/
